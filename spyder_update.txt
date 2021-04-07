@@ -13,3 +13,6 @@ conda uninstall spyder
 conda install spyder=5.0.0
 nepomohlo
 
+anaconda UI showing 2x base (base(root) & anaconda3  + spyder-env (path C:\users\micha\Anaconda3 vs. C:\users\micha\anaconda3)
+
+
