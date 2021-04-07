@@ -1,0 +1,15 @@
+for each env:
+conda activate base; conda activate spyder-env; do:
+  conda update anaconda
+  conda install spyder=5.0.0
+
+error: 
+You have missing dependencies!
+spyder_kernels >=2.0.1,<2.1.0 : 2.0.1 (NOK)
+
+resolution:
+restart nepomohol
+conda uninstall spyder
+conda install spyder=5.0.0
+nepomohlo
+
